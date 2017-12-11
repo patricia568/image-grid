@@ -87,6 +87,7 @@ img:nth-child(5) {
     font-size: 110%;
     line-height: 1.4;
   }
+
   img:nth-child(1) {
     width: 100%;
     display: block;
@@ -112,6 +113,45 @@ img:nth-child(5) {
 
   img:nth-child(5) {
     display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  img:nth-child(1) {
+    width: 66.66%;
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(2) {
+    width: 33.33%;
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(3) {
+    width: 33.33%;
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(4) {
+    width: 33.33%;
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    width: 33.33%;
+    display: block;
+    float: left;
   }
 
 }
